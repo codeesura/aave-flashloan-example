@@ -34,7 +34,7 @@ contract MyFlashLoanContract {
         //Burada flash kredi ile yapılmak istenen işlemler yer alır.
 
         //5. Kredi geri ödemesi yapılır.
-        //Ödenecek miktar, işlem başına alınan faiz miktarını da kapsar.
+        //Ödenecek miktar, işlem başına alınan faiz miktarını (%0.09) da kapsar.
         //Ödeme işlemi, flash loan işlemiyle aynı işlem içinde gerçekleştirilir.
         //Kredi borcunun tamamının geri ödenmesi gerekir.
         uint256 loanAmount = amounts[0];
